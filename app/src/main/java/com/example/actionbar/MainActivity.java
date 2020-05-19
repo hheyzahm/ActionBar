@@ -52,6 +52,7 @@ public class MainActivity extends AppCompatActivity implements ActionBar.OnNavig
         OnMapReadyCallback, LocationListener, GoogleApiClient.ConnectionCallbacks,
         GoogleApiClient.OnConnectionFailedListener{
     private GoogleMap mMap;
+    String s ;
     Location mLastLocation;
     Marker mCurrLocationMarker;
     GoogleApiClient mGoogleApiClient;
